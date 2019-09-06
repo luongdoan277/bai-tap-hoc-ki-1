@@ -8,10 +8,10 @@ int main()
 			printf("a la so duong");
 		}
 	else
-		if	((a>0) && (a!=0))		
+		if	(a>0) 		
 			{
 				printf("a la so am");
 			}
-		
+		else printf ("a la so 0");
 	return 0;
 }
